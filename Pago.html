@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <link rel="stylesheet" href="./css/style2.css">t</title>
+</head>
+<body>
+    
+</body>
+</html>
+<form class="material" action="process_payment.php" method="post">
+    <h2>Payment Details</h2>
+    
+    <div>
+      <label for="cardNumber">Num. Tarjeta:</label>
+      <input type="text" id="cardNumber" name="cardNumber" placeholder="Card number" required>
+    </div>
+    
+    <div>
+      <label for="cardHolder">Nombre del propietario:</label>
+      <input type="text" id="cardHolder" name="cardHolder" placeholder="Card holder name" required>
+    </div>
+    
+    <div>
+      <label for="expiryDate">Fecha de expiración:</label>
+      <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+    </div>
+    
+    <div>
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+    </div>
+    
+    <div>
+      <label for="billingAddress">Dirección:</label>
+      <textarea id="billingAddress" name="billingAddress" placeholder="Billing address" required></textarea>
+    </div>
+    
+    <input type="submit"  value="Pay Now">
+  </form>
